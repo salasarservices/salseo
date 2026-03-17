@@ -1,12 +1,18 @@
-beautifulsoup4==4.13.3
-certifi==2025.1.31
-Jinja2==3.1.6
-langchain==0.3.22
-langchain-anthropic==0.3.10
-lxml==5.3.1
-MarkupSafe==3.0.2
-pytest==8.3.2 # Added for testing
-pytest-mock==3.14.0 # Added for testing
-python-dotenv==1.1.0
-trafilatura==2.0.0
-urllib3==2.5.0
+diff --git a/requirements.txt b/requirements.txt
+index 555c7b4574476a56629b9ea81c5960693525e746..e8afd34d08ac048c1888955641cd4ff6d9668a65 100644
+--- a/requirements.txt
++++ b/requirements.txt
+@@ -1,12 +1,13 @@
+ beautifulsoup4==4.13.3
+ certifi==2025.1.31
+ Jinja2==3.1.6
+ langchain==0.3.22
+ langchain-anthropic==0.3.10
+ lxml==5.3.1
+ MarkupSafe==3.0.2
+ pytest==8.3.2 # Added for testing
+ pytest-mock==3.14.0 # Added for testing
+ python-dotenv==1.1.0
+ trafilatura==2.0.0
++streamlit==1.44.1
+ urllib3==2.5.0
